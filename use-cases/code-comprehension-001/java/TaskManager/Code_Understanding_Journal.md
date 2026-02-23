@@ -5,6 +5,7 @@
 ## Understanding a Specific Feature
 
 ### My Understanding
+
 The Task is created when code in the cli is ran as it is the entry point and user input is taken and then to create a task The task.java file class is used as a blueprint of tha task and
 by default is creates a task priority of meduim using taskPriority enum in the model package then a task is created and save using the TaskStorage class.
 
@@ -14,7 +15,7 @@ cli package JavaCliManager.java - Seems to be entry point and where user input i
 
 ### My Prompt
 
-
+```bash
 I'm trying to understand how the task creation and status updates works in our java gradle codebase.
 This feature seems to handle Tasks to create and updates them in 
 
@@ -36,6 +37,7 @@ Could you:
 
 I'm particularly confused about updating the task, so extra detail there would help.
 Finally, suggest 3 small code changes I could make to validate my understanding. Do not give the me change, and instead give me the requirement.
+```
 
 ### Understanding After AI
 
@@ -63,7 +65,7 @@ Finally, suggest 3 small code changes I could make to validate my understanding.
 - When not specified each task has a priority of Medium and can be updated when a task is updated.
 
 ## My Prompt
-
+```bash
 I'd like your help in deepening my understanding of a codebase by you acting as my senior development pair programmer.
 First, I'll share my current understanding of the code I'm exploring. Please acknowledge what parts I've understood correctly, then guide me with thoughtful questions rather than direct explanations.
 ## My Current Understanding:
@@ -93,6 +95,7 @@ I think the code works like this:
 4. End with a practical question about how I might use or modify this code
 
 Please don't give me direct explanations - help me discover the answers through guided questioning.
+```
 
 ## My understanding After AI
 
