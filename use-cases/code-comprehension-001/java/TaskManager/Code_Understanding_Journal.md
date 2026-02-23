@@ -100,7 +100,7 @@ Please don't give me direct explanations - help me discover the answers through 
 
 ## Mapping Data Flow
 
-User Input (CLI)
+User Input (CLI) \n
    ↓
 TaskCliManager (parses command)
    ↓
