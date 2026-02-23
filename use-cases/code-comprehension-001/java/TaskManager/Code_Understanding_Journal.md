@@ -100,15 +100,15 @@ Please don't give me direct explanations - help me discover the answers through 
 
 ## Mapping Data Flow
 
-User Input (CLI) \n
+User Input (CLI) 
    ↓
-TaskCliManager (parses command)
+TaskCliManager (parses command) <br>
    ↓
-TaskManager (finds and updates Task)
+TaskManager (finds and updates Task) <br>
    ↓
-Task.markAsDone() (updates state)
+Task.markAsDone() (updates state) <br>
    ↓
-TaskStorage.save() (serializes and persists)
+TaskStorage.save() (serializes and persists) <br>
    ↓
-CLI Output (success/error)
+CLI Output (success/error) <br>
 
